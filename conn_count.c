@@ -4,7 +4,7 @@
 
 #define VERSION "0.1"
 #define NAME "conn_count"
-#define TIME_UNIT 5*HZ
+#define TIME_UNIT 20*HZ
 
 static struct timer_list timer;       ///< 定时器,定时打印链接数信息
 static bool end=false;                ///< 标识释放取消定时器
